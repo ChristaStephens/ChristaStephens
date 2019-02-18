@@ -240,6 +240,10 @@ targets the a links from the div bar */
 .block {
   padding: 5% 0% 0% 15%;
 }
+/*stying titles for flip boxes*/
+h3{
+	font-weight: bold;
+}
 
 /* targets bottom 3 immages*/
 #round{
