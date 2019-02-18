@@ -186,7 +186,7 @@ targets the a links from the div bar */
 }
 
 .flip-box {
-    display: inline-block;
+  display: inline-block;
   background-color: transparent;
   border-radius: 50%;
   width: 300px;
