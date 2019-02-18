@@ -126,9 +126,6 @@ targets the a links from the div bar */
 	transition: 1s;
 }
 
-#sample:focus {
-   width: 200%;
-}
 
 /* changes the close button in navbar */
 .sidenav .closebtn {
@@ -271,6 +268,11 @@ targets the a links from the div bar */
 		margin-left:-5%;
 		width:20%;
 		box-shadow: 1px 1px 15px 10px #ccc;    
+}
+
+.tech{
+	
+	display: inline-block;
 }
 
  #selfTitled{
