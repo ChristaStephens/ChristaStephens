@@ -60,12 +60,16 @@ table {
 Start of CSS for Profile Page
 **/
 
-	body{margin:0;}
+	body{
+		margin:0;
+		/*tried to get rid of white space
+		between top div and mid div*/
+		background-color: #ccccff;
+	}
+
 
 	.ellaMainImage{
 	     margin-bottom:0;
-	     /*tried to get rid of white space*/
-	     background-color: #ccccff;
 
 	}	
 
@@ -290,7 +294,7 @@ h3{
 }
 
 .footer{
-	
+	position: absolute;
 	bottom: : 8px;
 	right: 8px;
 	color: #fff;
