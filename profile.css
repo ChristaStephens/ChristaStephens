@@ -275,11 +275,10 @@ h3{
 		box-shadow: 1px 1px 15px 10px #ccc;    
 }
 
+/*centering the bottom row of logos*/
 .tech{
-	
 	display: inline-block;
-	margin-top: 4%;
-	margin-left: 10%;
+	 padding: 5% 0% 0% 5%;
 }
 
 /* not in use, change name*/
