@@ -181,24 +181,33 @@ targets the a links from the div bar */
 /*table 
 not in use*/
 .GeneratedTable{
-		margin-top:5%;
-		margin-left:12%;
+	margin-top:5%;
+	margin-left:12%;
     }
+
+h1{
+	text-align: center;
+	color: #4d004d;
+	font-family: laila;
+	font-size: 1.3em;
+	font-weight: bold;
+
+}
 
 /* strike through for table items in bottom div
 not in use*/    
 .soldout a{
-        color:black;
-        text-decoration: line-through     
+    color:black;
+    text-decoration: line-through     
     }
 
 /*image after table*/
 
 .aboutme{
    
-    margin-top:3%;
-    margin-left:12%;
-    display: inline-block;
+  margin-top:3%;
+  margin-left:12%;
+  display: inline-block;
 
 }
 
@@ -263,6 +272,10 @@ the mouse over the flip box container */
 h3{
 	font-weight: bold;
 }
+/*styling text for flip boxes*/
+h4{
+
+}
 
 /* targets bottom 3 immages*/
 #round{
@@ -300,6 +313,7 @@ h2{
 	color: #4d004d;
 	font-family: laila;
 	font-size: 1.5em;
+	font-weight: bold;
 }
 
 /*centering the bottom row of logos*/
