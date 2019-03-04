@@ -1,2 +1,284 @@
-# ChristaStephens
-Profile site for Christa Stephens using HTML, CSS, &amp; JavaScript.
+<!DOCTYPE html>
+<html>
+  <!-- 
+		Authored by: Christa Stephens
+		Date: 2/16/19
+		Creating a profile page
+	-->
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Christa Stephens</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Bitter|Indie+Flower|Laila|Quicksand|Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="profile.css" />
+  <script src="profile.js"></script>
+</head>
+
+<style>
+  /* 
+  CSS for page
+  classes always start with a period(.) and 
+  id start with hashtag(#) & name of id
+  */
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* ----------------- ^^^^^^^^ RESET SCRIPT ^^^^^^^ --------------------------------*/
+/* --------------------------------------------------------------------------------*/
+
+/**
+
+Font families imported via Google:
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Indie Flower', cursive;
+font-family: 'Laila', serif;
+font-family: 'Bitter', serif;
+
+**/
+
+/**
+Start of CSS for Profile Page
+**/
+
+ 
+
+
+</style>
+
+
+<body>
+  
+
+<!-- MAIN Image -->
+
+    <!-- HTML for page -->
+
+    <!-- classes are so that we can talk to are tags in CSS / style -->
+   <img class="ellaMainImage" src="Pablo.png" alt="night sky" style="width:100%;">
+   
+
+  <!-- START Navbar
+    a div is a box
+   -->
+
+  <div class="container">
+      <!--&time is an html entity for "x" -->
+      
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <!--  # keeps the page from refreshing -->
+      <a href="about.html">Bio</a>
+      <a href="https://github.com/ChristaStephens">Github</a>
+      <a href="#">Favorite Projects</a>
+      <a href="https://www.linkedin.com/in/christastephens/">LinkedIn</a>
+    <!--  <a href="#">ellasodes</a> -->
+    </div>
+    
+  </div>
+
+     
+     <!-- Navbar Icon, called a hamburger entity -->     
+    <span class="top-left" style="font-size:30px;cursor:pointer;color:rgb(2255, 255, 255);" onclick="openNav()">&#9776;</span> 
+      <!-- END Navbar --> 
+    
+
+    <div class="concertDates">
+      <!-- Image for lower half -->
+      <img id="program" src="programlanguages.png">
+      
+      <img id="languages" src="test.png" width="500" height="300">
+
+      <br></br>  
+   
+   <!-- bottom div table-->
+    
+    <table class="GeneratedTable">
+        <tbody>
+  
+          <!--when you have more than one you use a class, 
+            if not use id. change all the id's back to class-->
+
+        
+<h1>As a developer, I utlized several types of techonologies daily to achieve customer sastification. The way in which I create projects can look like:</h1>
+ <section class="block">
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+     <img id="round" src= "wire.png" style="width:300px;height:200px">
+      
+    </div>
+    <div class="flip-box-back">
+      <br></br>
+      <h3>Wire Frames & Story Boards</h3>
+      <br></br>
+      <h4>Used in the creative process via CSS grid, Trello, Publisher or sticky notes. I'm always keeping the client in mind.</h4>
+    </div>
+  </div>
+</div>
+
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+     <img id="round" src= "dots.png" style="width:300px;height:200px">
+      
+    </div>
+    <div class="flip-box-back">
+      <br></br>
+      <h3>Version Control</h3>
+      <br>
+      <h4>Want to see quick status updates on your project? Check the green dots and commits on github! I use easy to understand comments throughout any project.</h4>
+    </div>
+  </div>
+</div>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+    <img id="round" src="night.png" width="300" height="200">
+      
+    </div>
+    <div class="flip-box-back">
+      <br></br>
+      <h3>Commiment to Completion</h3>
+      <br></br>
+      <h4>Project are completed with the customer in mind, always! Reasonable edits up to 15 days after delivery.</h4>
+    </div>
+  </div>
+</div>
+</section>
+
+
+
+<!--
+bottom 3 duplicate pictures
+    <ul class ="aboutme">
+      <img id="round" src="wire.png" width="300" height="200">
+      <img id="round" src= "dots.png" width="300" height="200">
+      <img id="round" src="night.png" width="300" height="200">
+
+    </ul>   
+     
+     
+     <br /><br /><br />
+
+
+  <img id="eMaix" src="https://cdn.shopify.com/s/files/1/0017/4407/6898/files/MERCH_SIGNATURE.png?17741688486477003076">   
+-->
+<br></br>
+</div>
+
+    <!-- Start of next section-->
+
+<div id="socialMedia" style="margin:0 auto; text-align:center;">
+
+  <!-- Logo for technology used-->
+  <br>
+  <h2>The types of technologies that I use to create projects, vary but my favorite are:</h2>
+  <br>
+  <ul class ="tech">
+    <img src="github.png" width="100" height="100" alt ="github" title="Github">
+    <img src= "mysql.png" width="100" height="100" alt="mysql" title="MySql">
+    <img src="eclipse.png" width="100" height="100" alt="eclipse" title="Eclipse">
+    <img src="visual-studio.png" width="100" height="100" alt="visual-studios" title="Visual Studios">
+       <br></br>
+    <img src="sublime.png" width="100" height="100" alt="sublime" title="Sublime">
+    <img src= "tumblr.png" width="100" height="100" alt="tumblr" title ="tumblr">
+    <img src="trello.png" width="100" height="100" alt ="trello" title="Trello">
+    <img src="ctest.png" width="100" height="100" alt="canva" title="Canva">
+      <br></br>
+    <img src="pdf.png" width="100" height="100" alt="pdf" title="Adobe PDF">
+    <img src="word.png" width="100" height="100" alt ="word" title=" Microsoft Word">
+    <img src="excel.png" width="100" height="100" alt="excel" title="Microsoft Excel">
+    <img src= "publisher.png" width="100" height="100" alt="publisher" title= "Microsoft Publisher">
+    
+
+
+  </ul>
+<!--
+
+   <img id="ellaMaibottomImage" src="https://images-na.ssl-images-amazon.com/images/I/51S88DoEidL._SS500.jpg"><br />
+<p>Technologys that I have used</p>
+   <a href="http://smarturl.it/EllaMai"><img id="selfTitled" src="https://cdn.shopify.com/s/files/1/0017/4407/6898/files/verb.png?6485398199319703412"></a>
+
+ -->
+   <br></br>
+
+
+
+</div>    
+
+
+<span class="footer" id="foot" title="LinkedIn to Developer" onclick="openPage()">Created by Christa Stephens</span> 
+
+
+<script>
+  
+  /*.style is the HTML DOM style*/
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+
+function openPage() {
+  document.getElementById("foot");
+   window.open("https://www.linkedin.com/in/christastephens/");
+}
+
+</script>
+
+
+
+</body>
